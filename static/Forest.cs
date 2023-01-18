@@ -12,6 +12,11 @@ namespace StaticMembers
     private static string treeFacts;
 
     // CONSTRUCTORS
+     static Forest()
+    {
+        treeFacts = "Forests provide a diversity of ecosytem services including: \r\n aiding in regulating climate.\r\n mitigatiung natural hazards such as floods.\n";
+        ForestsCreated = 0;
+    }
 
     public Forest(string name, string biome)
     {

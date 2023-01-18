@@ -6,7 +6,7 @@ namespace StaticMembers
   {
     static void Main(string[] args)
     {
-
+      Forest.PrintTreeFacts();
     }
   }
 }
